@@ -1,0 +1,58 @@
+.container{
+    padding-top: 50px;
+}
+.card {
+    position: relative;
+}
+.card p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card-foot{
+    bottom: 0px;
+}
+.card-foot ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.card-foot ul li{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border: 1px solid #ebe1e1;
+    opacity: 0.7;
+    width: 100px;
+    height: 50px;
+}
+.card-foot ul li a{
+    text-decoration: none;
+    text-align: center;     
+}
+
+.footerr{
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;    
+}
+.footerr .date {
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background: #1894A0;
+}
+.footerr .watch  {
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #334564;
+}
